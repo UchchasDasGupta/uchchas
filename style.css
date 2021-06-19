@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    
+}
+.profile-image{
+    width: 100px;
+    height:120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-bio h1,h2,h3,h4,h5{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+   
+    border: solid black 3px;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+/* -----------------------------------
+    Personal section starts here
+--------------------------------------*/
+#personal-section{
+    
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+.common-hr{
+   
+    border: solid black 1px;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+
+/* -----------------------------------
+    work-experience section starts here
+--------------------------------------*/
+.work-section{
+    
+}
+.work-template{
+    margin-bottom: 20px;
+}
+
+.edu-template-left{
+    width: 45%;
+    float: left;
+    
+}
+.edu-template-right{
+    width: 45%;
+    float: right;
+    
+    
+}
+.bottom-container{
+    
+    text-align: center;
+    background-color: black;
+
+    padding: 10px;
+}
+
+
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px 20px;
+   
+}
+.bottom-container p{
+    
+    color: white;
+    margin-top: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+th{
+	color : #11999e;
+}
